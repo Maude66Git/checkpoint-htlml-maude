@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web page</title>
+
+    <!--style de la page-->
+    <style>
+        h2, nav, li, a {
+            color:#a5c63a;
+        }
+
+        h3{
+            color:#333333;
+        }
+
+
+        #travail, #cv, #contact {
+            margin-top: 50px;
+        }
+
+        /*Background du premier block*/
+        #apropos {
+            background-image: url('assets/fond-simple.jpg');
+            padding-top: 20px;
+        }
+
+        /*Mis en style du portfolio des sites web*/
+        .portfolio-sw>img {
+            display:inline-block;   
+        }
+    
+        button {
+            Color:#a5c63a;
+            border-width: 2px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom:40px;
+            padding: 2%;
+        }
+        
+        .voyage {
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        /*style du pied de page*/
+        footer {
+            height: 80px;
+            margin-top: 50px;
+            padding-top: 50px;
+            background-color: #a5c63a;      
+        }
+
+        footer> img, p {
+            display:inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/Photo perso.jpg" height="100" alt="photo-perso"/>
+
+    <nav>
+    <table style="font-size:25px;">
+    <td>
+        <ul type="square">
+            <li>Accueil</li></a>
+        </ul>
+    </td>
+    <td>
+        <ul type="square">
+            <a href="#apropos"><li>A propos</li></a>
+        </ul>
+    </td>
+    <td>
+        <ul type="square">
+            <a href="#travail"><li>Travail</li></a>
+    
+        </ul> 
+    </td>
+    <td>
+        <ul type="square">
+            <a href="#cv"><li>CV</li></a>
+        </ul>
+    </td>
+    <td>
+        <ul type="square">
+            <a href="#contact"><li>Contact</li></a>
+        </ul>
+    </td>
+    </table>
+    </nav>
+    <div>
+        <img src="assets/ligne-dorée.png" height="20px" alt="divider"/>
+    </div>
+        
+
+    </header>
+
+    <main>
+
+        <section id="apropos">
+            <h2>A propos</h2>
+            <h3>Bienvenue sur ma page web.</h3>
+            <p>Je vais exposer dans cette page mon travail et mon CV.<br/>
+            Avant de me lancer dans le vif du sujet voilà une petite introduction sous forme d'audio.</p>    
+    
+            <div>
+                <audio src="assets/Intro perso.m4a" controls>Cliquez ici si votre navigateur ne reconnait pas cet audio</audio>
+            </div>
+    
+        </section>
+
+        <section>
+            <div>
+                <img src="assets/ligne-dorée.png" height="20px" alt="divider"/>
+            </div>
+            </section>
+
+        <section id="travail">
+            <h2>Mon travail</h2>
+            <h3>Je suis associée et fondatrice de plusieurs sociétés en France et en Tunisie, basées sur le développement et le marketing.</h3>
+
+            <div>
+                <p>Comme beaucoup de femmes cheffes d'entreprise, j'occupe un peu tous les postes dans mes sociétés mais je gère surtout la relation clientèle. <br/>
+                Je dois aussi faire le lien entre les clients et les équipes techniques. En effet, je ne développe pas personellement mais je dois 
+                pouvoir expliquer aux développeurs ce que veulent les clients.</p>
+            </div>
+            <div>
+                <p>Ce que je préfère dans mon métier c'est le processus de création ainsi que le SEO (référencement naturel). 
+                    Partir de rien et arriver à livrer des sites web avec un bon référencement que les clients sont fiers de pouvoir montrer et utiliser.</p>
+            </div>
+            <div>
+                <p>Les parties marketing et communication sont gérées par mes associés</p>
+            </div>
+            <h3>Voici quelques exemples de sites</h3>
+            <div class="portfolio-sw">
+                <img src="assets/site vitrine 9.jpg" alt="site-1"/>
+                <img src="assets/site vitrine 7.jpg" alt="site-2"/>
+                <img src="assets/site vitrine 6.jpg" alt="site-2"/>
+            </div>
+            <div class="portfolio-sw">
+                <img src="assets/site vitrine 11.jpg" alt="site-4"/>
+                <img src="assets/site vitrine 5.jpg" alt="site-5"/>
+                <img src="assets/site ecommerce 5.jpg" alt="site-6"/>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <img src="assets/ligne-dorée.png" height="20px" alt="divider"/>
+            </div>
+        </section>
+
+        <section id="cv">
+            <h2>Mon CV</h2>
+            <h3>Expériences professionnelle</h3>
+            <div>
+                <ul>
+                    <li>2021 : Création de PLUG-In société de stratégie de communication toujours active.</li>
+                    <li>2010 : Création de Yanacom société de développement et de marketing toujours active.</li>
+                    <li>2008 : Création de Wellcom Int. société de développement toujours active.</li>
+                    <li>2002-2008 : Gérante société d'import export.</li>
+                </ul>
+            </div>
+            
+            <h3>Formations</h3>
+            <div>
+                <p>Je suis diplomée d'un master de Biologie, écologie des populations et éthologie</p>
+            </div>
+
+            <h3> Mes passions</h3>
+           
+            <div>
+                <h4><u>Les animaux</u></h4>
+                <p>En dehors de mon métier je suis fan des animaux, je suis d'ailleurs bénévole dans un refuge <span><a href="https://www.facebook.com/Un-G%C3%AEte-Une-Gamelle-222602597808496/" target="_blank">Un gite une gamelle.</a></span> <br/>
+                Je les aide à maintenir leur site web pour qu'il puisse faire adopter le plus de chiens et chats possible. </p>
+            </div>
+            <div>
+                <p>Si vous souhaitez découvrir le refuge pour lequel je suis bénevole, regardez cette vidéo.</p>
+            </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LLu5yFJLjiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="voyage">
+                <h4><u>Les voyages</u></h4>
+                <p>Mon autre passion est la découverte de nouveaux pays en effet j'ai eu la chance de voyager dans le monde entier.</p>
+            </div>
+            <div>
+                <button type="button">
+                    <a href="voyage.html"><b>Voir le portfolio de mes voyages</b></a>
+                </button>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <img src="assets/ligne-dorée.png" height="20px" alt="divider"/>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div>
+            <h2>Mes coordonnées</h2>
+            <table border="1">
+                <tr>
+                    <td>Télephone</td>
+                    <td>0601020304</td>
+                    
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>maude@gmail.com</td>
+                    
+                </tr>
+                <tr>
+                    <td>Adresse</td>
+                    <td>Perpignan</td>
+                    
+                </tr>
+            </table>
+            </div>
+
+            <div>
+            <h3>Contactez moi en remplissant les champs ci dessous</h3>
+            <form>
+                <fieldset>
+                <label for="fullname">Nom :</label><br/>
+                <input type="text" name="nom" placeholder="Prénom/Nom"/>
+                <br/><br/>
+
+                <label for="email">Email :</label><br/>
+                <input type="email" name="email" placeholder="Votre email"/>
+                <br/><br/>
+
+                <label for="tel">Téléphone :</label><br/>
+                <input type="number" name="tel" placeholder="Votre téléphone"/>
+                <br/><br/>
+
+                <label>Objet :</label><br/>
+                <input type="textarea" name="objet"  placeholder="Objet"/>
+                <br/><br/>
+
+                <label>Message :</label><br/>
+                <textarea id="story" name="story"
+                rows="5" cols="33">
+                </textarea> <br/><br/>
+
+                <input type="button" value="ok"/>
+
+                </fieldset>
+            </form>
+            </div>
+            
+        </section>
+
+    </main>
+        <footer>
+            <img src="assets/flech3.png" height="50px" alt="fleche-yanacom"/>
+            <p>Copyright &copy; 2022, tous droits réservés</p>
+        
+        </footer>
+</body>
+</html>

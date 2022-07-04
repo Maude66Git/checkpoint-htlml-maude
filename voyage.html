@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web page</title>
+
+    <!--style de la page-->
+    <style>
+        h2, nav, li, a {
+            color:#a5c63a;
+        }
+
+        h3{
+            color:#333333;
+        }
+
+        /*Mis en style du portfolio des voyages*/
+        .portfolio-voyage>img {
+            display:inline-block;   
+        }
+
+        /*Mise en place du portfolio de la page voyage*/
+        .portfolio-voyage1 {
+            margin-top: 10px;
+            margin-bottom:10px;
+            padding: 1%;
+        }
+        .portfolio-voyage {
+            margin-top: 40px;
+            margin-bottom:10px;
+            padding: 1%;
+        }
+        
+
+        /*style du pied de page*/
+        footer {
+            height: 80px;
+            margin-top: 50px;
+            padding-top: 50px;
+            background-color: #a5c63a;      
+        }
+
+        footer> img, p {
+            display:inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/Photo perso.jpg" height="100" alt="photo-perso"/>
+
+    <nav>
+    <table style="font-size:25px;">
+    <td>
+        <ul type="square">
+            <a href="index.html"><li>Accueil</li></a>
+        </ul>
+    </td>
+    <td>
+        <ul type="square">
+            <a href="index.html#apropos"><li>A propos</li></a>
+        </ul>
+    </td>
+    <td>
+        <ul type="square">
+            <a href="index.html#travail"><li>Travail</li></a>
+    
+        </ul> 
+    </td>
+    <td>
+        <ul type="square">
+            <a href="index.html#cv"><li>CV</li></a>
+        </ul>
+    </td>
+    <td>
+        <ul type="square">
+            <a href="index.html#contact"><li>Contact</li></a>
+        </ul>
+    </td>
+    </table>
+    </nav>
+    <div>
+        <img src="assets/ligne-dorée.png" height="20px" alt="divider"/>
+    </div>
+        
+
+    </header>
+
+    <main>
+
+        
+
+        <section id="voy">
+            <h2>Mes voyages</h2>
+            <div>
+                <p><i>Passez la souris sur les photos pour découvrir les lieux</i></p>
+            </div>
+
+            <div class="portfolio-voyage1">
+                <h3>L'Europe</h3>
+                <img src="assets/voyages/Avignon.jpg" title="Avignon" alt="Avignon"/>
+                <img src="assets/voyages/Barcelone-Espagne.jpg" title="Barcelone-Espagne" alt="Barcelone"/>
+                <img src="assets/voyages/Bonifacio-Corse.JPG" title="Bonifacio-Corse" alt="Corse"/>
+                <img src="assets/voyages/Canigou-France.jpg" title="Canigou-France" alt="Canigou"/>
+                <img src="assets/voyages/Collioure-France.jpg" title="Collioure-France" alt="Collioure"/>
+                <img src="assets/voyages/Lisbonne-Portugual.jpg" title="Lisbonne-Portugual" alt="Lisbonne"/>
+                <img src="assets/voyages/Sintra-Portugual.jpg" title="Sintra-Portugual" alt="Sintra"/>
+                <img src="assets/voyages/Paris.jpg" title="Paris" alt="Paris"/>
+                <img src="assets/voyages/Londres-2.jpg" title="Londres" alt="Londres"/>
+                <img src="assets/voyages/Irlande-2.JPG" title="Irlande" alt="Irlande"/>
+                <img src="assets/voyages/Loch Ness-Ecosse.JPG" title="Loch Ness-Ecosse" alt="Loch-Ness"/>
+                <img src="assets/voyages/Florence-Italie.JPG" title="Florence-Italie" alt="Florence"/>
+                <img src="assets/voyages/Milan-Italie.jpg" title="Milan-Italie" alt="Milan"/>
+                <img src="assets/voyages/Sofia-Bulagrie.JPG" title="Sofia-Bulgarie" alt="Sofia-Bulgarie"/>
+                <img src="assets/voyages/Stockholm-Suéde.JPG" title="Stockholm-Suède" alt="Stockholm-Suede"/>
+                
+            </div>
+            
+            <div class="portfolio-voyage">
+                <h3>L'Afrique</h3>
+                <img src="assets/voyages/Tunisie-1.jpg" title="Sidi Bou Said" alt="Tunisie"/>
+                <img src="assets/voyages/Tunisie-3.JPEG" title="Cimetière Americain-La Marsa" alt="Tunisie"/>
+                <img src="assets/voyages/Tunisie-4.JPEG" title="Tozeur-Tunisie" alt="Tunisie"/>
+                <img src="assets/voyages/Tunisie-5.JPEG" title="Nefta-Tunisie" alt="Tunisie"/>
+                <img src="assets/voyages/Tunisie-7.JPEG" title="Nefta-Tunisie" alt="Tunisie"/>
+                <img src="assets/voyages/Tunisie-8.JPEG" title="Tamaqzah-Tunisie" alt="Tunisie"/>
+                <img src="assets/voyages/Tunisie-6.JPEG" title="Douz-Tunisie" alt="Tunisie"/>
+                <img src="assets/voyages/Tunisie.jpg" title="Dougga-Tunisie" alt="Tunisie"/>
+                <img src="assets/voyages/Tunisie-2.jpg" title="Dougga-Tunisie" alt="Tunisie"/>
+                <img src="assets/voyages/Marrakech-Maroc.jpg" title="Marrakech-Maroc" alt="Marrakech"/>
+            </div>
+
+                
+            <div class="portfolio-voyage">
+                <h3>Le reste du monde</h3>
+                <img src="assets/voyages/Chute du Niagara.JPG" title="Chute-du-Niagara" alt="Chute-du-Niagara"/>
+                <img src="assets/voyages/Quebec-city-Canada.JPG" title="Quebec-city-Canada" alt="Quebec-city-Canada"/>
+                <img src="assets/voyages/Muraille de chine.JPG" title="Muraille-de-chine" alt="Muraille-de-chine"/>
+                <img src="assets/voyages/Dubai.jpg" title="Dubai" alt="Dubai-1"/>
+                <img src="assets/voyages/Dubai-2.JPEG" title="Dubai by night" alt="Dubai-2"/>
+            </div>   
+        </section>
+
+        <section>
+            <div>
+                <img src="assets/ligne-dorée.png" height="20px" alt="divider"/>
+            </div>
+        </section>
+
+        
+    </main>
+        <footer>
+            <img src="assets/flech3.png" height="50px" alt="fleche-yanacom"/>
+            <p>Copyright &copy; 2022, tous droits réservés</p>
+        
+        </footer>
+</body>
+</html>
